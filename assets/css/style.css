@@ -1,0 +1,109 @@
+/*--- Font family from Google fonts-----*/
+@font-face {
+    font-family: "princessofia";
+    src: url("../fonts/princessofia.ttf") format("truetype");
+
+}
+@font-face {
+    font-family: "alkatran";
+    src: url("../fonts/alkatran.ttf") format("truetype");
+}
+
+/*--------whole page background color*/
+body {
+
+    background-color: beige;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+
+/*------header section---*/
+.section-header {
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+/*---- personal background picture-------------------------*/
+.header-background {
+    background: url("../images/granada.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    min-height: 350px;
+    width: 100%;
+    z-index: 1;
+
+}
+
+/*----webit-text-stroke taken from other sources "https://linuxhint.com/set-font-border-css/"*/
+.header-text {
+    text-align: center;
+    font-family: "princessofia";
+    color: #25336B;
+    -webkit-text-stroke: 1px #CF840E;
+    font-size: xxx-large;
+
+}
+
+h1 {
+    font-size: 350%;
+    padding: 30px 10px 20px;
+}
+
+/*---second section of header menu items -----*/
+
+.menu-items {
+    position: relative;
+    top: 40px;
+    z-index: 2;
+    background: RGBA(207, 132, 14, 0.5);
+    height: 15%;
+    width: 100%;
+    margin: 0;
+    border-block-end: 5px solid #25336B;
+    text-align: center;
+
+}
+
+/*-----Font menu items design, same color and font as h1---------*/
+.item-design {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "princessofia";
+    text-transform: capitalize;
+    opacity: 1;
+    z-index: 3;
+    color: #25336B;
+    padding: 100px;
+
+}
+
+/*-----------------------------section introduction*/
+.introduction-design {
+    background-color: beige;
+    color: #151d3b;
+    z-index: 3;
+    margin: 0;
+    bottom: 150px;
+    opacity: 1;
+    font-family: "princessofia";
+
+}
+
+h2 {
+    color: black;
+}
+
+#welcome-picture {
+    position: right;
+}
+
+
+
+/*-----media sites*/
+@media screen and (max-width 1393px) {}
