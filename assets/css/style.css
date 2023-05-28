@@ -4,6 +4,7 @@
     src: url("../fonts/princessofia.ttf") format("truetype");
 
 }
+
 @font-face {
     font-family: "alkatran";
     src: url("../fonts/alkatran.ttf") format("truetype");
@@ -43,7 +44,7 @@ body {
 /*----webit-text-stroke taken from other sources "https://linuxhint.com/set-font-border-css/"*/
 .header-text {
     text-align: center;
-    font-family: "princessofia";
+    font-family: "princessofia", sans-serif, Arial, Helvetica;
     color: #25336B;
     -webkit-text-stroke: 1px #CF840E;
     font-size: xxx-large;
@@ -74,7 +75,7 @@ h1 {
 .item-design {
     font-size: xx-large;
     font-weight: bold;
-    font-family: "princessofia";
+    font-family: "princessofia", sans-serif, Arial, Helvetica;
     text-transform: capitalize;
     opacity: 1;
     z-index: 3;
@@ -91,19 +92,31 @@ h1 {
     margin: 0;
     bottom: 150px;
     opacity: 1;
-    font-family: "princessofia";
 
 }
 
 h2 {
-    color: black;
+    color: #151d3b;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: "princessofia";
+}
+
+.introduction-design p {
+    font-family: "alkatran", sans-serif, Arial, Helvetica;
+    color: #151d3b;
+    font-size: 19px;
+    text-align: left;
+    text-align: justify;
+    padding: 30px 10px 20px;
+    margin: 0;
+
+
 }
 
 #welcome-picture {
-    position: right;
+    float: right;
+    border-radius: 50%;
+    border: outset;
 }
-
-
-
-/*-----media sites*/
-@media screen and (max-width 1393px) {}
