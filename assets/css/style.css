@@ -101,6 +101,8 @@ h2 {
     font-size: 50px;
     text-transform: capitalize;
     font-family: "princessofia";
+    padding-top: 4px;
+    padding-bottom:4px;
 }
 
 .introduction-design p {
@@ -109,14 +111,25 @@ h2 {
     font-size: 19px;
     text-align: left;
     text-align: justify;
-    padding: 30px 10px 20px;
+    padding: 40px 15px 20px;
     margin: 0;
 
 
 }
 
 #welcome-picture {
-    float: right;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-radius: 50%;
     border: outset;
+    
+}
+/*--------------------------activities booking design part----*/
+
+.activities-design {
+    margin-top:10px;
+    padding:50px
 }
