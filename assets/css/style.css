@@ -101,8 +101,11 @@ h2 {
     font-size: 50px;
     text-transform: capitalize;
     font-family: "princessofia";
+<<<<<<< HEAD
     padding-top: 4px;
     padding-bottom:4px;
+=======
+>>>>>>> 03dc4ccbf49f18d9ecc25dd3f554da5bc7866560
 }
 
 .introduction-design p {
@@ -111,13 +114,18 @@ h2 {
     font-size: 19px;
     text-align: left;
     text-align: justify;
+<<<<<<< HEAD
     padding: 40px 15px 20px;
+=======
+    padding: 30px 10px 20px;
+>>>>>>> 03dc4ccbf49f18d9ecc25dd3f554da5bc7866560
     margin: 0;
 
 
 }
 
 #welcome-picture {
+<<<<<<< HEAD
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -133,3 +141,9 @@ h2 {
     margin-top:10px;
     padding:50px
 }
+=======
+    float: right;
+    border-radius: 50%;
+    border: outset;
+}
+>>>>>>> 03dc4ccbf49f18d9ecc25dd3f554da5bc7866560
