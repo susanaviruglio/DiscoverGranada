@@ -25,6 +25,7 @@ body {
 .section-header {
     max-width: 100%;
     overflow: hidden;
+    display: block;
 
 }
 
@@ -68,6 +69,7 @@ h1 {
     margin: 0;
     border-block-end: 5px solid #25336B;
     text-align: center;
+    display: inline-block;
 
 }
 
@@ -92,6 +94,8 @@ h1 {
     margin: 0;
     bottom: 150px;
     opacity: 1;
+    display: block;
+    width: 100%;
 
 }
 
@@ -101,49 +105,71 @@ h2 {
     font-size: 50px;
     text-transform: capitalize;
     font-family: "princessofia";
-<<<<<<< HEAD
     padding-top: 4px;
-    padding-bottom:4px;
-=======
->>>>>>> 03dc4ccbf49f18d9ecc25dd3f554da5bc7866560
+    padding-bottom: 4px;
 }
 
 .introduction-design p {
     font-family: "alkatran", sans-serif, Arial, Helvetica;
     color: #151d3b;
     font-size: 19px;
-    text-align: left;
+    text-align: center;
     text-align: justify;
-<<<<<<< HEAD
     padding: 40px 15px 20px;
-=======
-    padding: 30px 10px 20px;
->>>>>>> 03dc4ccbf49f18d9ecc25dd3f554da5bc7866560
     margin: 0;
+
+
 
 
 }
 
 #welcome-picture {
-<<<<<<< HEAD
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 50%;
     border: outset;
-    
 }
-/*--------------------------activities booking design part----*/
+
+/*-------------------------------------------Plan your trip section-----*/
 
 .activities-design {
-    margin-top:10px;
-    padding:50px
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-=======
-    float: right;
-    border-radius: 50%;
+
+.activities-block h3 {
+    color: #151d3b;
+    text-transform: capitalize;
+    font-family: "princessofia", sans-serif, Arial, Helvetica;
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0 30px 0;
+
+}
+
+.image-properties {
     border: outset;
+    border-radius: 5%;
+
 }
->>>>>>> 03dc4ccbf49f18d9ecc25dd3f554da5bc7866560
+
+.activities-price {
+    background: RGBA(207, 132, 14, 0.2);
+    border-radius: 5%;
+    text-align: justify;
+    color: #151d3b;
+    font-family: "alkatran", sans-serif, Arial;
+    width: 92%;
+
+}
+
+button {
+    float: right;
+}
+
+h4 {
+    float: left;
+}
