@@ -1,39 +1,41 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Discover Granada
+## User Centric Frontend Development Milestone Project by Susana Viruglio
 
-Welcome,
+Discover Granada is a fictional tourist website that offers information about Granada: places to visit, book activities, places to eat, what to do and information. The idea of the decoration project came to me while I was actually visiting Granada on my holidays, I thought it could be a great idea to bring my personal experience to life. As I was visiting this city I was collecting ideas for the project from every place I was visiting.
+My principal goal is interested in attracting and retaining tourists so they can book activities. 
+Some potencial features to include are:
+1. Photos ( views of places to go, places to visit,...).
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+2. Provide information on places to go (map) locations, opening hours, booking activities.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+3. A map of Granada with information about how to get there, transport. 
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+# UX AIMS
 
-`python3 -m http.server`
+* To attract users between 25 and 45 years old who want to travel and get to know Granada, Spain.
+* To convince users to stay longer by providing images and an actractive design.
+* To provide users with an easy and quick interaction website with all the information.
+* To create a fully responsive design for several devices as desktop, tablets and phones, etc.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# USER STORIES
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+1. 
 
-`http_server`
+# DESIGN EVOLUTION
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Home!
+[2023-05-27 (1)](https://github.com/susanaviruglio/Milestone-project-1/assets/127688431/f99842a6-7dc5-496d-aa94-5acefee3101d)
+My first wireframe for desktop.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Header
+In my first page you will find the home page (header) where I described the purpose of this website with an introductory paragraph. I have added the principal header with a background picture. Beneath the principal image, I created the navigation menu with links of the three different web pages: what to do (information of places to go and what to eat) contact or about us (information about how to get there and a form if the user has any enquiry).
+### Section 1
+Underneath I will have my first section(h2) Welcome to Granada! with a paragraph description of the website and introduction attracting the user to know more about it.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Section 2
+In my section area I have provided the user with some interesting activities to book in Granada. I have used Bootstrap to create the layout and some pictures.
 
-To log into the Heroku toolbelt CLI:
+### Footer
+Finally I have created the footer where some link in social media and a copyright sign.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
