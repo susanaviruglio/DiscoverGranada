@@ -172,4 +172,46 @@ button {
 
 h4 {
     float: left;
+<<<<<<< HEAD
+=======
+}
+
+/*------------------------------------------------section 2 gap between section and footer----*/
+
+
+/*-----------------------------------------Footer section, it will be the same for all files---*/
+
+
+footer {
+    background: RGBA(207, 132, 14, 0.2);
+    padding: 1em;
+    margin-top: 30px;
+
+
+}
+
+footer>p {
+    color: #151d3b;
+    font-family: "alkatran", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+
+
+}
+
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 0 5% 0 5%;
+    color: #25336B;
+>>>>>>> b6b9687 (footer style finish)
 }
