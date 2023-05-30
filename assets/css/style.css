@@ -60,6 +60,7 @@ h1 {
 /*---second section of header menu items -----*/
 
 .menu-items {
+    overflow: hidden;
     position: relative;
     top: 40px;
     z-index: 2;
@@ -75,14 +76,17 @@ h1 {
 
 /*-----Font menu items design, same color and font as h1---------*/
 .item-design {
+    float: middle;
     font-size: xx-large;
     font-weight: bold;
     font-family: "princessofia", sans-serif, Arial, Helvetica;
     text-transform: capitalize;
+    text-align: center;
     opacity: 1;
     z-index: 3;
     color: #25336B;
-    padding: 100px;
+    padding: 50px;
+
 
 }
 
@@ -128,7 +132,6 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
-    margin-bottom: 15px;
     border-radius: 50%;
     border: outset;
 }
@@ -138,6 +141,11 @@ h2 {
 .activities-design {
     margin-top: 50px;
     margin-bottom: 50px;
+
+}
+
+.activities-design>h2 {
+    margin: 1% 0 -3% 0;
 }
 
 .activities-block h3 {
@@ -146,7 +154,8 @@ h2 {
     font-family: "princessofia", sans-serif, Arial, Helvetica;
     text-align: center;
     font-size: 35px;
-    margin: 30px 0 30px 0;
+    margin: 20px 0 20px 0;
+    /*margin: 30px 0 30px 0;*/
 
 }
 
@@ -172,8 +181,6 @@ button {
 
 h4 {
     float: left;
-<<<<<<< HEAD
-=======
 }
 
 
@@ -199,6 +206,7 @@ footer>p {
 
 }
 
+
 .social-networks {
     text-align: center;
 }
@@ -212,5 +220,72 @@ footer>p {
     margin: 1%;
     padding: 0 5% 0 5%;
     color: #25336B;
->>>>>>> b6b9687 (footer style finish)
+}
+
+/*----------------------------media websites----------*/
+
+/*desktop view*/
+@media (max-width: 1396px) {
+    .menu-items-phone {
+        display: none;
+    }
+}
+
+
+
+/* Tablet View */
+@media (max-width: 768px) {
+
+
+
+
+    /* Mobile View */
+    @media (max-width: 400px) {
+
+        h1 {
+            font-size: 100px;
+            padding: 80px 10px 20px;
+
+        }
+
+        .menu-items {
+            top: 71px;
+        }
+
+        .item-design {
+            display: none;
+        }
+
+        .image-properties {
+            width: 100%;
+        }
+
+
+        .activities-price {
+            width: 100%;
+        }
+
+
+
+
+        /*
+        .menu-items-phone {
+            display: block;
+        }
+
+
+        .subnavbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: #25336B;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+            z-index: 5;
+            position: relative; */
+    }
+
+
 }
