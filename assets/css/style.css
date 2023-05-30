@@ -234,7 +234,7 @@ footer>p {
 
 
 /* Tablet View */
-@media (max-width: 768px) {
+@media (max-width: 768px) {}
 
 
 
@@ -268,24 +268,6 @@ footer>p {
 
 
 
-        /*
-        .menu-items-phone {
-            display: block;
-        }
-
-
-        .subnavbtn {
-            font-size: 16px;
-            border: none;
-            outline: none;
-            color: #25336B;
-            padding: 14px 16px;
-            background-color: inherit;
-            font-family: inherit;
-            margin: 0;
-            z-index: 5;
-            position: relative; */
     }
 
 
-}
