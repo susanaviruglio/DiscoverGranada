@@ -37,5 +37,5 @@ Underneath I will have my first section(h2) Welcome to Granada! with a paragraph
 In my section area I have provided the user with some interesting activities to book in Granada. I have used Bootstrap to create the layout and some pictures.
 
 ### Footer
-Finally I have created the footer where some link in social media and email with a copyright.
+Finally I have created the footer where some link in social media and a copyright sign.
 
