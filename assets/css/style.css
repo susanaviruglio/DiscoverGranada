@@ -167,6 +167,7 @@ h2 {
 
 .activities-price {
     background: RGBA(207, 132, 14, 0.2);
+    font-size: 19px;
     border-radius: 5%;
     text-align: justify;
     color: #151d3b;
@@ -175,7 +176,7 @@ h2 {
 
 }
 
-.activities-price > a {
+.activities-price>a {
     float: right;
 }
 
