@@ -104,6 +104,7 @@ h1 {
     width: 100%;
 
 }
+
 /*all h2 in all pages will be affected*/
 h2 {
     color: #151d3b;
@@ -140,13 +141,41 @@ h2 {
     color: #25336B;
     -webkit-text-stroke: 0.5px #CF840E;
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .what-to-do a {
     color: #25336B;
     -webkit-text-stroke: 0.5px #CF840E;
+    font-family: "princessofia", sans-serif, Arial;
 }
+
+.what-to-do-headers {
+    margin: 80px 0 50px 0;
+
+}
+
+/*direct child from list in visit section----*/
+
+ol>li {
+    font-family: "princessofia", sans-serif, Arial;
+    color: #151d3b;
+    font-size: 30px;
+}
+
+li>h3 {
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.visit-style>p {
+    font-family: "alkatran", sans-serif, Arial;
+    font-size: 19px;
+    text-align: justify;
+    background: RGBA(207, 132, 14, 0.2);
+}
+
+
 
 
 
