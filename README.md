@@ -85,6 +85,9 @@ My second issue was very similar to my previous one ,but this time I could fix i
 
 ### CODE
 
+All the code that I have used to create this website was taken from Code Institute learning platform a part from the next following sources:
+* [BOOTSTRAP](https://getbootstrap.com/)
+
 ### IMAGES
 
 ### FONTS
