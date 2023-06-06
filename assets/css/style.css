@@ -166,6 +166,7 @@ ol>li {
 li>h3 {
     font-size: 35px;
     text-transform: capitalize;
+    padding: 30px;
 }
 
 .visit-style>p {
@@ -174,12 +175,6 @@ li>h3 {
     text-align: justify;
     background: RGBA(207, 132, 14, 0.2);
 }
-
-
-
-
-
-
 
 
 
@@ -198,6 +193,7 @@ li>h3 {
 .activities-block h3 {
     color: #151d3b;
     text-transform: capitalize;
+    text-decoration: underline;
     font-family: "princessofia", sans-serif, Arial, Helvetica;
     text-align: center;
     font-size: 35px;
@@ -235,11 +231,40 @@ li>h3 {
 
 }
 
+/*----------------------------------------------*/
+
+
+
+
 h4 {
     float: left;
 }
 
+/*--------------------------------------------Contact Form section------------*/
 
+
+.contact-form {
+    float: middle;
+    font-family: "alkatran", sans-serif, Arial;
+    color: #151d3b;
+    font-size: 19px;
+    text-align: center;
+    text-align: justify;
+
+}
+
+
+
+.contact-form>p {
+    text-align: left;
+}
+
+#form-picture {
+    margin-top: 30px;
+    border: outset;
+    width: 450px;
+    height: 400px;
+}
 
 
 /*-----------------------------------------Footer section, it will be the same for all files---*/

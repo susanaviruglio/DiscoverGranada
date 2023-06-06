@@ -31,8 +31,8 @@
 
             <nav class=" menu-items">
                 <a class="item-design" href="index.html"> Home</a>
-                <a class="item-design" href="#">What to do</a>
-                <a class="item-design" href="#">Contact Us</a>
+                <a class="item-design" href="visit.html">What to do</a>
+                <a class="item-design" href="contact.html">Contact Us</a>
             </nav>
         </div>
 
@@ -47,124 +47,214 @@
     <section>
 
         <div class="introduction-design ">
-            <h2>welcome to granada!</h2>
+            <h2>Contact us</h2>
             <!---text provided from this source:"https://www.saltinourhair.com/spain/granada/" and the image is free and its source
     https://pixabay.com/es/photos/alhambra-granada-espa%c3%b1a-2044399/----->
-            <p>
-                This fantastic place is one of the most magical cities in Europe,
-                where history comes to life, and old cobbled streets sit in the shadow of incredible
-                Moorish palaces. Although it’s a city, it’s within touching distance of the most breathtaking nature; a
-                beautiful river trickles off the mountainside where the snow-capped peaks of the Sierra Nevada sit in
-                the
-                distance. Grab some free tapas with a local ‘Cerveza’, relax on the river shore, or watch the sun go
-                down
-                from a hilltop viewpoint. Enjoy all the top things to do in Granada, Spain!</p>
-            <img id="welcome-picture" src="https://cdn.pixabay.com/photo/2017/02/06/21/55/alhambra-2044399_1280.jpg"
-                width="240" height="240" alt="granada located on a map">
+            <p> Looking for more travel information? Do not hesitate on asking any particular question bellow and we
+                will try to answer back as soon as possible. </p>
+
+            <form class="contact-form">
+                <p>Write a comment bellow! <em>Your email address will not be published. Required fields are
+                        marked*.</em></p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <label for="comment">Comment*:</label>
+                            <br>
+                            <textarea name="comment" id="comment" required rows="10" cols="40"></textarea>
+                            <br>
+                            <label for="name">Name*:</label>
+                            <input id="name" type="text" name="username" required>
+                            <br>
+                            <label for="email">Email*:</label>
+                            <input type="email" name="email" required>
+                            <br>
+                            <input type="checkbox">
+                            <label for="checkbox">Click to receive news about Granada!</label>
+                            <button id="submit" type="submit">Submit</button>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <img id="form-picture" src="/assets/images/window.jpg" width="240" height="240"
+                                alt="granada located on a map">
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
-
-
     </section>
-    <br>
-    <!---in this section I will provide the users with some activities to book-->
-    <section>
-        <!-- Title of the section-->
-        <div class="activities-design">
-            <h2>plan your trip</h2>
-        </div>
-        <!---grid sistem------------------------------------->
 
+    <section>
+        <h2><i class="fa-solid fa-circle-info"></i>Information</h2>
+        <h3>FQs</h3>
         <div class="container">
             <div class="row">
-
-                <div class="col-12 col-md-12 col-lg-6  activities-block">
-                    <h3>Flamenco</h3>
-                    <img class="image-properties" src="/assets/images/flamenco.jpg" width="500" height="500">
-                    <div class="activities-price">
-                        <p> <em>Los Jardines de Zoraya </em> is a restaurant in the heart of Granada’s historical
-                            Albaizín district, offering daily flamenco shows
-                            and excellent local cuisine. If you want to see an authentic performance in a truly unique
-                            venue, then <em>Los Jardines de Zoraya</em> is a must. </p>
-                        <h4>Ticket just for £50</h4>
-                        <a href="https://flamenco.jardinesdezoraya.com/en/838-web-tablao/4721-flamenco-and-gastronomy"
-                            target="_blank" class="btn btn-dark" role="button">Book!</a>
-                        <!--<button type="button" class="btn btn-dark">Book!</button>-->
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-12 col-lg-6 activities-block">
-                    <h3>Alhambra</h3>
-                    <img class="image-properties" src="/assets/images/palace.jpg" width="500" height="500">
-                    <div class="activities-price">
-                        <details>
-                            <summary> Join a group to visit the <em>Alhambra and Generalife</em>. <p></p> The guided
-                                tour includes: Alhambra Tickets and official guide tour of
-                                the Alhambra & Generalife. </p>
-                            </summary>
-                            <p> You will discover the best preserved Muslim Medieval City in the world.
-                                You will walk through the courtyards: of the Arrayanes, the Reja, the Acequia, the
-                                Sultana. You will enjoy the gardens:
-                                the Partal, the Medina. And of course the Generalife with its graceful water games, its
-                                labyrinthine design ...</p>
-                        </details>
-                        <h4>Ticket just for £35</h4>
-                        <a href="https://www.alhambra-entradas.org/en/?gclid=CjwKCAjwvdajBhBEEiwAeMh1U5BSshnXq6H6ChD2GSI7NNA2tahJWsFDSNxkmjbJviihxG72QWMTpRoCVR4QAvD_BwE"
-                            target="_blank" class="btn btn-dark" role="button">Book!</a>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-12 col-lg-6 activities-block">
-                    <h3>Balcón de San Nicolás</h3>
-                    <img class="image-properties" src="/assets/images/dinner.jpg" width="500" height="500">
-                    <div class="activities-price">
-                        <p> Enjoy a lovely dinner for two at <em>El Balcón de San Nicolás</em>, specializes in Spanish
-                            cuisine.
-                            Order perfectly cooked monkfish, lasagna and gazpacho. You will be offered such food as
-                            tasty cheesecakes, fruitcake and ice cream, come here and try them. The best of all, enjoy
-                            the view!!! </p>
-                        <h4>Ticket just for £25 per person</h4>
-                        <a href="https://elbalcondesannicolas.com/en/book-a-table/" target="_blank" class="btn btn-dark"
-                            role="button">Book!</a>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-12 col-lg-6 activities-block">
-                    <h3>Train city tour</h3>
-                    <img class="image-properties"
-                        src="https://www.turgranada.es/wp-content/uploads/sites/2/2014/05/tren-turistico-granada.jpg?x53512"
-                        width="500" height="500">
-                    <div class="activities-price">
-                        <p>The tourist train or "Granada City Tour" offers a tour of the most touristic points of the
-                            city: the <em>Alhambra</em>, the
-                            <em>Albaicin</em>, or the <em>Plaza Nueva</em>. Also, it's a hop-on-hop-off train service
-                            that allows you to get on and off at the designated stops as many times as you
-                            want.
+                <div class="col-12">
+                    <details>
+                        <summary>How to get in Granada?</summary>
+                        <p> Granada has good air and ground connections that provide easy access to the city by various
+                            means of transport: plane,
+                            bus, train, car and taxi. Granada Airport is 20 km from Granada and has very good
+                            communications with the capital.
+                        <h5>Getting from Granada Airport</h5>
+                        <p>You can also get to Granada by taxi. A taxi from Granada Airport to the city centre costs
+                            around 30 euros.
+                            Visitors can reach Granada city centre in a special airport bus service. This bus runs
+                            through the centre of Granada and
+                            terminates at the Exhibition and Conference Centre.
+                            <br>
+                            It is better to ask how much it will cost before getting into the taxi, because the taxi
+                            drivers sometimes charge you a
+                            higher price, especially if you're from abroad.
                         </p>
-                        <h4>Ticket just for £15</h4>
-                        <a href="https://granada.city-tour.com/en/?gclid=CjwKCAjwvdajBhBEEiwAeMh1U7WjTiuqj0e3R_hEhANMpK49uR25NySfAH2aT-g2NWVlGmiYbZGMARoCIoYQAvD_BwE"
-                            target="_blank" class="btn btn-dark" role="button">Book!</a>
-                    </div>
+                        <h5>From Malaga Airport to Granada</h5>
+                        <p>
+                            There are buses and train that could take you to Granada from Malaga. The buses are cheaper
+                            around 20 euros and it takes 2 hours ,but If you want to travel by train it takes 1 hour and
+                            it is cost just 20 euros.
+                            Renfe is the company which runs the trains in Spain.
+                        </p>
+
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <details>
+                        <summary>What transport can you use around the city?</summary>
+                        <p>
+                        <h5>Buses</h5>
+                        <p>Alhambra Bus (and Transportes Rober) manages the four urban
+                            transport routes known as touristic routes, since they link
+                            the city with the Aromonte and Albayzin.
+                            These are the routes C30 (Alhambra - Centre), C31 (Albaycin - Centre), C32 (Alhambra -
+                            Albaycin), C34 (Sacromonte -
+                            Centre).</p>
+                        <p>The Alhambra Bus fares are the same as those of other urban buses. You can use the same
+                            travel card on Alhambra and
+                            other (bigger) urban buses.</p>
+
+                        <!-- text information taken    from  https                 ://www.lovegranada.com/transport/alhambra-buses/-->
+                        <table>
+                            <tr>
+                                <th>Concept</th>
+
+                                <th>Cost</th>
+
+                            </tr>
+                            <tr>
+                                <td>Regular Ticket</td>
+
+                                <td>1,40 </td>
+
+
+
+
+                            </tr>
+                            <tr>
+                                <td>Travel Card 5 € (5 trips)</td>
+                                <td>0,87 €</td>
+
+                            </tr>
+                            <tr>
+                                <td>Travel Card 10 € (11 trips)</td>
+                                <td>0,85 €</td>
+
+                            </tr>
+                            <tr>
+                                <td>Travel Card 20 € (24 trips) </td>
+                                <td>0,83 €</td>
+
+                            </tr>
+                            <tr>
+                                <td>Monthly Card (30 days)</td>
+                                <td>41 €</td>
+
+                            </tr>
+                            <tr>
+                                <td>Regular Ticket at Night</td>
+                                <td>1,50 €</td>
+
+                            </tr>
+                        </table>
+                        <h6>General map of all buses <em>(Click image to see a bigger size)</em> </h6>
+                        <a href="https://www.lovegranada.com/images/transport/city/granada-bus-map.jpg"
+                            target="_blank"><img
+                                src="https://www.lovegranada.com/images/transport/city/granada-bus-map.jpg" width="500"
+                                height="500"></a>
+                        <h5>Taxis</h5>
+                        <p>Taxis in Granada is a great option. It is a regulated taxi service that works 24 hours a day,
+                            7 days a week. There are a
+                            wide range of vehicles, some of them wheelchair accessible. There are two taxi companies in
+                            Granada: Tele Radio Taxi Granada on 958 28 00 00 and Radio Taxi Genil on 958 13 23 23.
+                            You can call them to book a taxi in advance or immediately, if they are available near you.
+                        </p>
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <details>
+                        <summary>How many days do I need to see Granada?</summary>
+                        <!--paragraph take from this source https://www.spain-traveller.com/en/how-many-days-to-spend-in-granada/-->
+                        <p>
+                            With four or five nights, you will have time to see most of the city, as well as being able
+                            to see other interesting
+                            places near Granada, such as the Sierra Nevada ski resort (if you happen to visit the region
+                            between December and March)
+                            or some charming little towns in the Sierra de las Alpujarras.</p>
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <details>
+                        <summary>Where is Alhambra?</summary>
+                        <p>
+                        <p>It is located on top of the hill al-Sabika, on the left bank of the river Darro, to the west
+                            of the city of Granada and
+                            in front of the neighbourhoods of the Albaicin and of the Alcazaba.</p>
+                        <!--link taken from google maps --->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12716.0660922184!2d-3.5881413!3d37.1760783!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcb7977fb93b%3A0x808dd1ef1221a27f!2sAlhambra!5e0!3m2!1ses!2suk!4v1686076817362!5m2!1ses!2suk"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </iframe></p>
+                        </p>
+                    </details>
                 </div>
             </div>
         </div>
 
 
-        <footer>
-
-            <p>Copyright © Discover Granada 2023</p>
+    </section>
 
 
-            <ul class="social-networks">
-                <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></li>
-                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
-                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> </i></li>
-            </ul>
+    <footer>
+
+        <p>Copyright © Discover Granada 2023</p>
+
+
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> </i></li>
+        </ul>
 
 
 
 
-        </footer>
+    </footer>
 </body>
 
 </html>
