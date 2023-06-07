@@ -56,6 +56,7 @@ body {
 
 h1 {
     font-size: 350%;
+
     padding: 30px 10px 20px;
 }
 
@@ -253,8 +254,6 @@ h4 {
 
 }
 
-
-
 .contact-form>p {
     text-align: left;
 }
@@ -264,6 +263,81 @@ h4 {
     border: outset;
     width: 450px;
     height: 400px;
+}
+
+section>h2 {
+    margin-top: 80px;
+}
+
+section>h3 {
+    font-family: "princessofia", sans-serif, Arial;
+    color: #151d3b;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h6 {
+    font-size: 1rem;
+    margin: 40px 0 15px 0;
+}
+
+summary {
+    display: list-item;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.faq-contact {
+    font-family: "alkatran", Arial, sans-serif;
+    font-size: 19px;
+    color: #151d3b;
+    text-align: center;
+    text-align: justify;
+}
+
+h5 {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    text-align: center
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    border: #151d3b;
+    border-radius: 80%;
+}
+
+th {
+    height: 45px;
+    background: #151d3b;
+    color: #CF840E;
+    border: #151d3b;
+}
+
+tr {
+    background: #CF840E;
+    border: #151d3b;
+}
+
+#mapa-granada {
+    vertical-align: middle;
+    border-style: none;
+    border: outset;
+    margin-bottom: 15px;
+
+}
+
+iframe {
+    border-radius: 10%;
+    border: #CF840E;
 }
 
 
@@ -344,8 +418,8 @@ footer>p {
 @media only screen and (max-width: 920px) {
 
     h1 {
-        font-size: 450%;
-        padding: 150px 10px 120px;
+        font-size: 400%;
+        padding: 50px 0 50px 0;
 
     }
 
@@ -395,8 +469,9 @@ footer>p {
 
     .item-design {
         text-align: left;
-        padding: 7px;
+        padding: 1.5px;
         margin: 1.7px;
+        font-size: 20px;
     }
 
     .image-properties {
