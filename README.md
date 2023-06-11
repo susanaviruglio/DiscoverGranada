@@ -137,7 +137,48 @@ My second issue was very similar to my previous one ,but this time I could fix i
 
 All the code that I have used to create this website was taken from Code Institute learning platform a part from the next following sources:
 * [BOOTSTRAP](https://getbootstrap.com/)
+  
+- I used *Bootstrap* 4.0 version, mainly I used the gryd system to build layouts.Code example provided:
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div> 
 
+- Button for my *Plan Your Trip* section in my home page, I use this button instead of the Code Institute one because I found easier to style the color and font. Code provided example:
+  <button type="button" class="btn btn-dark">Dark</button>
+
+*  GOOGLE Maps
+- I used an iframe provided from Google maps sections. I searched for Granada address and I copied the HTML code.
+  <iframe src="<https://www.google.com/maps/embed?pb=>!1m14!1m8!1m3!1d12716.0660922184!2d-3.5881413!3d37.1760783!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcb7977fb93b%3A0x808dd1ef1221a27f!2sAlhambra!5e0!3m2!1ses!2suk!4v1686076817362!5m2!1ses!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+* [W3SCHOOL](https://www.w3schools.com/)
+  
+- How to insert an image in my HTML file. Code example provided:
+  <img src="pic_trulli.jpg" alt="Italian Trulli">
+
+- The opacity property specifies the opacity/transparency of an element. I learned that using RGBA you can change the opacity of the color.
+
+ background: RGBA(207, 132, 14, 0.5)
+
+- CSS border-block-end-width Property. I wanted to give a little touch to my menu bar so the user could see a blue line separating the header from the rest of the page.
+  
+ border-block-end: 5px solid #25336B
+
+* [LINUXHINT](https://linuxhint.com/set-font-border-css/)
+- With CSS, you can style fonts in several ways. For instance, we can set the border for a font to make it more attractive with respect to its looks. A font border is also added when it is required to outline some text. It also permits you to style the text and add color and width according to your preferences. Code example provided:
+
+ -webkit-text-stroke: 1px #CF840E;
+ 
+* 
 ### IMAGES
 
 ### FONTS
