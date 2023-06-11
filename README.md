@@ -21,12 +21,12 @@ Some potencial features to include are:
 
 ## USER STORIES
 
-1. What can I do in Granada?
-2. How can I book tickets to go to La Alhambra?
-3. How can I see the city if I don´t have enought time?
-4. How do I get to the city centre? which vehicle i can use?
-5. Where can I go to eat? Do you recommend nice views?
-6. Do you recommend any show?
+1. **What can I do in Granada?** " I am a user who wants to visit Granada for several days, it is the first time that I am visiting the city so I would like to receive recommendations of the best places or most important things to do".
+2. **How can I book tickets to go to La Alhambra?** "I would like to book tickets to see typical flamenco dancers, visit the most important heritage places as well as a direct link to book so I could do it easily".
+3. **How can I see the city if I don´t have enought time?** "I would like to have a list with the most important places to see or places to eat so I can prioritize my time".
+4. **How do I get to the city centre from the airport? Which transport I can use to go around the city?** "As it is my first time visiting Granada I would like to know the best prices for transports and how to move from the airport to the city center".
+5. **Where can I go to eat? Do you recommend nice views?** "I would like to have a romantic dinner with my partner, so I would like to have a nice time with some views".
+6. **Do you recommend any show?** "Spain is very famous for their flamenco shows, but I am not sure which is the best show. I would like to have an idea and also information of where I could make a reservation".
 
 ## DESIGN EVOLUTION
 
@@ -50,6 +50,56 @@ In my section area I have provided the user with some interesting activities to 
 #### Footer
 
 Finally I have created the footer where some link in social media and a copyright sign.
+
+### What To Do
+
+#### Header & Footer
+I have decided to keep the same design for the header and the footer. So the main focus for the user is the content of the page.
+
+#### Section 1
+
+In my first section I have created a heading and a paragraph with an introduction to attract the reader and inform what they would find in the current page.
+
+I have created to navigation links to make the user experience easier; I have divided into two parts: things to do and what to eat.
+
+#### Section 2
+
+In my following section I have divided into two groups as I said previously and I have link the headings with two ids. I organised the images and paragraph into an order list and every part has an image, so the user will find easy to read and to find information. 
+
+Also, I have added some information links in some of the sections to make the experience better through out their online journey. I emphasized the information links with a *Font Awesome* icon so it is much easier to see for the user.
+
+
+### What To Do
+
+As my project should have at least three pages, I decided to add this final page with a simple user feedback or any simple enquire.
+
+#### Section 1
+
+It is a simple *Contact Us* heading and a paragraph with a simple sentence encouraging the user to ask a question or do a website feedback underneath.
+
+#### Section 2
+
+In this section I use HTML form structure with a textarea for the user to write a comment regarding the website, an email address to send the answer and a name, making sure that all the spaces are required and mark with a * so the users are already informed.
+
+Next to this area I have placed a picture to make it visually more beautiful and attractive for the user experience.
+
+
+#### Section 3
+
+As this is my last section I wanted to create a FAQ section with the typical questions that a user could ask so they do not have to wait for an answer. I used summary to keep the text hidden for each question so the text does not occupied the entire site.
+
+To inform the user about all the bus prices I created a table so it is clasified and easy to see. Underneath I added a picture of the map so the user can click on it and it will send them straight away to a new tab with an extended map.
+
+Finally, I used iframe to link a google map with the location about the city center of Granada. Google search engine provides user with a link to use in Google Maps page, so I got the code from them.
+
+
+
+
+
+
+
+
+
 
 
 ## CODE ISSUES
