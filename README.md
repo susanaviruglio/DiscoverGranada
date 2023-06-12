@@ -156,7 +156,7 @@ Once I have finished my project I saved all my files, then I pulled and pushed t
 5. Then I went to *Pages* and under "Build and Deployment", I found the source which I select Deployment from a branch.
 6. Finally I was allowed to share my live website with others.
 
-Here is the following link to see my project. [Discover Granada]()
+Here is the following link to see my project. [Discover Granada]( https://susanaviruglio.github.io/DiscoverGranada/)
 ## CREDITS
 
 
