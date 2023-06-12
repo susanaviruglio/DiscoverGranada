@@ -97,7 +97,8 @@ Finally, I used iframe to link a google map with the location about the city cen
 
 ### Bugs discover
 * Navigation menu: I wanted my menu bar translucent with a bit of color, but when I was trying to do it with the Hex Value I could not change the opacity. So after trying and doing some researchs I tried to use RGB.
-[Here is how I wanted to look like.](/assets/css/images/website-navigationbar.png)
+
+<img  src="/assets/images/website-navigationbar.jpg">
 * I have had to change my navigation menu again because on my heading background and it did not work as I was expecting, so I move it underneath the header.
 * I have used so much pixeles so it was very difficult to make sure the header was the same size in all devices.
 * Section 1 general issue: once I created my navigation menu and the background for my header I wanted to create my first section ,but it did not appear beneath it. I checked my code and I found out that I had had set the background to position absolute, so I deleted and everything was working fine.
