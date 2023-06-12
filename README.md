@@ -1,6 +1,7 @@
 # Discover Granada
 
 ## User Centric Frontend Development Milestone Project by Susana Viruglio
+<img  src="/assets/images/presentation.jpg">
 
 Discover Granada is a fictional tourist website that offers information about Granada, with an only purpose which is educational: places to visit, book activities, places to eat, what to do and information. The idea of the decoration project came to me while I was actually visiting Granada on my holidays, I thought it could be a great idea to bring my personal experience to life. As I was visiting this city I was collecting ideas for the project from every place I was visiting.
 My principal goal is interested in attracting and retaining tourists so they can book activities.
@@ -30,10 +31,20 @@ Some potencial features to include are:
 
 ## DESIGN EVOLUTION
 
-### Home
+#### My first wireframe idea made with *Figma*
 
-[2023-05-27 (1)](https://github.com/susanaviruglio/Milestone-project-1/assets/127688431/f99842a6-7dc5-496d-aa94-5acefee3101d)
-My first wireframe for desktop.
+<img  src="https://github.com/susanaviruglio/Milestone-project-1/assets/127688431/f99842a6-7dc5-496d-aa94-5acefee3101d">
+
+#### My designs with *Canvas*
+* Phone
+  
+<img  src="/assets/images/phonedesign.jpg">
+
+* Computer or laptop
+
+<img  src="/assets/images/desktopfirstdesign.jpg">
+
+### Home
 
 #### Header
 
@@ -126,8 +137,28 @@ My tutor informed that sometimes there are conflicts between your github reposit
 Then it worked and I could merge to my main branch. 
 #### Second Issue
 My second issue was very similar to my previous one ,but this time I could fix it by myself using the step above. I have realise that if I edite any file from my Github it will diverge the branch from the main.
+## HTML AND CSS VALIDATOR 
 
+<img  src="/assets/images/cssvalidator.jpg">
+<img  src="/assets/images/htmlvalidator.jpg">
+I have an ERROR that I have tried very hard to fix it. My mentor said that she would ask her team for more information. The rest was everything fine.
+
+## DEPLOYMENT
+
+I have created my project on *GitHub* and I have developed it in *Codeanywhere*.
+
+Once I have finished my project I saved all my files, then I pulled and pushed to *GitHub*
+
+1. First, I have typed this command "git remote -v",this command shows the git repo is connected to the GitHub repo.
+2. Secondly, I typed git status and git push.
+3. Then I went to *GitHub* and I refreshed the page. So I saw that all the codes where visible.
+4. I clicked the *Settings* of my project.
+5. Then I went to *Pages* and under "Build and Deployment", I found the source which I select Deployment from a branch.
+6. Finally I was allowed to share my live website with others.
+
+Here is the following link to see my project. [Discover Granada]()
 ## CREDITS
+
 
 ### CODE
 
