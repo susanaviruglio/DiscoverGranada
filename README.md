@@ -2,7 +2,7 @@
 
 ## User Centric Frontend Development Milestone Project by Susana Viruglio
 
-Discover Granada is a fictional tourist website that offers information about Granada: places to visit, book activities, places to eat, what to do and information. The idea of the decoration project came to me while I was actually visiting Granada on my holidays, I thought it could be a great idea to bring my personal experience to life. As I was visiting this city I was collecting ideas for the project from every place I was visiting.
+Discover Granada is a fictional tourist website that offers information about Granada, with an only purpose which is educational: places to visit, book activities, places to eat, what to do and information. The idea of the decoration project came to me while I was actually visiting Granada on my holidays, I thought it could be a great idea to bring my personal experience to life. As I was visiting this city I was collecting ideas for the project from every place I was visiting.
 My principal goal is interested in attracting and retaining tourists so they can book activities.
 Some potencial features to include are:
 
@@ -97,9 +97,13 @@ Finally, I used iframe to link a google map with the location about the city cen
 
 ### Bugs discover
 * Navigation menu: I wanted my menu bar translucent with a bit of color, but when I was trying to do it with the Hex Value I could not change the opacity. So after trying and doing some researchs I tried to use RGB.
+[Here is how I wanted to look like.](/assets/css/images/website-navigationbar.png)
+* I have had to change my navigation menu again because on my heading background and it did not work as I was expecting, so I move it underneath the header.
+* I have used so much pixeles so it was very difficult to make sure the header was the same size in all devices.
 * Section 1 general issue: once I created my navigation menu and the background for my header I wanted to create my first section ,but it did not appear beneath it. I checked my code and I found out that I had had set the background to position absolute, so I deleted and everything was working fine.
 * Section 1 image issue: I had my own picture ,but it seemed to be broken everytime I doing the code. I found my mistake in my html area because I forgot the slash in front of the route link.
-* 
+* What to do page: I had fix the measurement of the paragraphs and images because they were moving around and they had different size. I changed them for 500px width.
+  
 
 ### Command issues 
 
@@ -127,9 +131,10 @@ My second issue was very similar to my previous one ,but this time I could fix i
 ### CODE
 
 All the code that I have used to create this website was taken from Code Institute learning platform a part from the next following sources:
+
 [BOOTSTRAP](https://getbootstrap.com/)
   
-- I used *Bootstrap* 4.0 version, mainly I used the gryd system to build layouts.
+- I used *Bootstrap 4.0* version, mainly I used the gryd system to build layouts.
 
 - Button for my *Plan Your Trip* section in my home page, I use this button instead of the Code Institute one because I found easier to style the color and font. 
 
@@ -153,18 +158,38 @@ All the code that I have used to create this website was taken from Code Institu
  
 ### IMAGES
 All images were taken during my trip to Granada especially for the project. I have taken some pictures which are free here are the links. The used of this images are only educational.
+
 [Granada Welcome Image](https://pixabay.com/es/photos/alhambra-granada-espa%c3%b1a-2044399/) 
 It is a view of Alhambra located on the home page.
 
 [Granada Train](https://www.turgranada.es/wp-content/uploads/sites/2/2014/05/tren-turistico-granada.jpg?x53512) 
 This is a simple picture of the train located on the second section of the home page.
+
 [Granada Bus Map](https://www.lovegranada.com/images/transport/city/granada-bus-map.jpg)
 It is located on the FAQ section on the Contact page.
 ### FONT FAMILIES
-The main font used on the website are:
+The main font used (from Google fonts) on the website are:
 
 * [Princes Sofia](https://fonts.google.com/specimen/Princess+Sofia?query=princes+sofia)
 * [Alkatran](https://fonts.google.com/specimen/Alkatra)
 
 In case the fonts are not working or not supporting from another device *Arial* or *Sans Serif* are provided as a second or third choice.
 
+### TEXT INFORMATION
+
+While I was creating the website I was inspired by several sites on the internet. I have taken some text from them ,but the main purpose is just educational.
+
+#### Home page
+    
+* [Welcome to Granada:](https://pixabay.com/es/photos/alhambra-granada-espa%c3%b1a-2044399/) it is an introductory text to present the website.
+
+#### What To Do
+
+* [What to do in Granada:](https://www.saltinourhair.com/spain/granada/) it is an introductory text to attract the reader with an exciting idea about Granada.
+* [Alhambra and Carrera del Darro:](https://www.mochileandoporelmundo.com/cosas-que-ver-y-hacer-en-granada/) information about what is Alhambra and why we recommend to visit it. Also some information in the next collumn about Carrera del Darro , the Cathedral and Mercado la Alcaicería.
+* [Flamenco:](https://www.panchotours.com/tablao-flamenco-jardines-de-zoraya) real information about flamenco in *Los Jardines de Zoraya*.
+
+#### Contact Us
+
+* [Buses:](https://www.lovegranada.com/transport/alhambra-buses/) real description about buses time table and how to get there.
+* [How many days do I need to see Granada?:](https://www.spain-traveller.com/en/how-many-days-to-spend-in-granada/) a simple suggestion about how many days anyone need to see the city.
